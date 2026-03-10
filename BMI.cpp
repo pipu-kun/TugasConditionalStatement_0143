@@ -7,6 +7,8 @@ float BMI(float bb, float tb) {
     return bb / (tb * tb);
 }
 
+
+
 int main() {
     cout << "-- Selamat Datang Mahasiswa Kelas C 2025 --" << endl;
     cout << "Masukan Berat Badan (kg) : ";
@@ -14,4 +16,6 @@ int main() {
     cout << "Masukan Tinggi Badan (m) : ";
     cin >> tb;
 
+    cout << "-- HASIL --" << endl;
+    cout << "BMI anda : " << BMI(bb, tb) << endl;
 }
