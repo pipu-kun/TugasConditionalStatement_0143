@@ -1,4 +1,8 @@
 #include <iostream>
 using namespace std;
 
-float bb, tb;    
+float bb, tb;   
+
+float BMI(float bb, float tb) {
+}
+
