@@ -7,3 +7,4 @@ float BMI(float bb, float tb) {
     return bb / (tb * tb);
 }
 
+int main() {}
